@@ -8,12 +8,8 @@ public class SingletonPractice {
     }
 
     public static SingletonPractice getInstance(){
-        if( instance == null){
-            return instance = new SingletonPractice();
-        }
-        else{
-            return instance;
-        }
+        if( instance == null) { return instance = new SingletonPractice(); }
+        return instance;
     }
 
     public String getMsg()
