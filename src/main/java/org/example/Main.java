@@ -9,5 +9,11 @@ public class Main {
         singleton = SingletonPractice.getInstance();
 
         System.out.println(singleton.getMsg());
+
+        singleton = SingletonPractice.getInstance();
+        System.out.println(singleton.getMsg());
+
     }
+
+
 }
