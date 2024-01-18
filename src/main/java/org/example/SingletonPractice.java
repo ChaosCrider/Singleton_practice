@@ -1,3 +1,5 @@
+package org.example;
+
 public class SingletonPractice {
 
     private static SingletonPractice instance;
@@ -10,7 +12,11 @@ public class SingletonPractice {
         else{
             return instance;
         }
+    }
 
+    public String getMsg()
+    {
+        return "Test completed";
     }
 
 }
